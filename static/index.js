@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '太菜了！';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 50) return '50分都过不了，真菜！';
+        if (cps <= 100) return '100都达不到，真菜';
+        if (cps <= 200)  return '还真过百了';
+        if (cps <= 300) return '这不可能！';
         return '人？';
     }
 
