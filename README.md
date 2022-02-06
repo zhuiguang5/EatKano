@@ -3,13 +3,6 @@
 </p>
 <div align="center">
 
-# EatKano
-
-_🦌 网页小游戏 🥛_
-
-</div>
-
-
 ## 简介
 
 小游戏：吃掉班主任的头像
