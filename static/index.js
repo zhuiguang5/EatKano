@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (得分 <= 50) return '50分都过不了，真菜！';
-        if (得分 <= 100) return '100都达不到，真菜';
-        if (得分 <= 200)  return '还真过百了';
-        if (得分 <= 300) return '这不可能！';
+        if (cps <= 5) return '太菜了！';
+        if (cps <= 10) return '继续加油';
+        if (cps <= 15)  return '可以可以';
+        if (cps <= 20) return '这不可能！';
         return '人？';
     }
 
